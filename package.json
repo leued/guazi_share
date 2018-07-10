@@ -1,0 +1,29 @@
+{
+  "name": "webpack-tpl",
+  "version": "1.0.0",
+  "description": "iii",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config  config/webpack.config.js",
+    "push": "git push origin master",
+    "dev": "webpack-dev-server --config config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leued/webpack-tpl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leued/webpack-tpl/issues"
+  },
+  "homepage": "https://github.com/leued/webpack-tpl#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {}
+}
